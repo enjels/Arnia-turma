@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    color: white;
+    font-size: large;
+    background-color: #1A1033;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.mester{
+    display: flex;
+    gap: 0.5rem;
+}
+.btn-i,.btn-p,.btn-dowload{
+    font-size: large;
+    margin-bottom: 20px;
+    background-color: #FBB04D;
+    border-radius: 20px;
+    padding: 15px;
+    border: none;
+    
+}
+
+.box-one,.box-two,.box-tree{
+    background-color: #2C1C50;
+    border-radius: 30px;
+    padding: 20px;
+    line-height: 25px;
+}
+a{
+    color: rgb(7, 0, 0);
+}
+ol li #drive{
+    color: white;
+}
+ol li #drive:hover{
+    color: #FBB04D;
+}
+a:hover{
+    color: white;
+    cursor: pointer;
+}
+
