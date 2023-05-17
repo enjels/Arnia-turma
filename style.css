@@ -9,9 +9,10 @@ body{
     color: white;
     font-size: large;
     background-color: #1A1033;
-    
+
 }
 .container{
+
     display: flex;
     justify-content: center;
     text-align: center;
@@ -20,20 +21,28 @@ body{
     height: 100vh;
 
 }
-.btn{
-    margin-bottom: 20px;
-    background-color: #FBB04D;
-    border-radius: 20px;
-    padding: 15px;
-    border: none;
+.box-one{
     
-}
-
-.box-one,.box-two,.box-tree{
     background-color: #2C1C50;
     border-radius: 30px;
     padding: 50px;
     border-radius: 20px;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+.btn{
+    
+    font-size: 2rem;
+    margin: 20px;
+    background-color: #FBB04D;
+    border-radius: 20px;
+    width: 350px;
+    height: 70px;
+    border: none;
+
 }
 
 a{
